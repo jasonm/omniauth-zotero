@@ -1,7 +1,2 @@
-require "omniauth-zotero/version"
-
-module Omniauth
-  module Zotero
-    # Your code goes here...
-  end
-end
+require "omniauth/zotero/version"
+require "omniauth/strategies/zotero"
