@@ -44,6 +44,16 @@ end
 Then, read the OmniAuth documentation on
 [Integrating OmniAuth Into Your Application](https://github.com/intridea/omniauth#integrating-omniauth-into-your-application).
 
+## Example
+
+In the `example/` directory, run the provided Rack application for a demo:
+
+    $ cd example/
+    $ bundle
+    $ ZOTERO_KEY=abc123 ZOTERO_SECRET=def456 rackup
+
+Then visit [localhost:9292](http://localhost:9292) to try it out.
+
 ## Contributing
 
 1. Fork it
